@@ -5,10 +5,9 @@ body{background-color: black;}
 
 .custom-slider { display: none; }
 .slide-container {
-    max-width: 1280px;
+    max-width: 1080px;
     position: center;
     margin: auto;
-    margin-top: auto;
 }
 .prev, .next {
     cursor: pointer;
