@@ -5,8 +5,8 @@ body{background-color: black;}
 
 .custom-slider { display: none; }
 .slide-container {
-    max-height: 800px;
-    max-width: 600px;
+    max-height: 1024px;
+    max-width: 800px;
     position: center;
     margin: auto;
 }
