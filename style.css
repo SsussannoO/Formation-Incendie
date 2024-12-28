@@ -5,8 +5,8 @@ body{background-color: black;}
 
 .custom-slider { display: none; }
 .slide-container {
-    max-width: 800px;
-    max-height: 800px;
+    max-height: 1024px;
+    max-width: 1280px;
     position: center;
     margin: auto;
 }
@@ -36,6 +36,22 @@ body{background-color: black;}
     background-color: rgba(253, 5, 5, 0);
     transition: background-color 0.6s ease;
 }
+.prev{ left: 0%; }
+.next { right: 0%; }
+.prev:hover, .next:hover {
+    background-color: rgba(250, 5, 5, 0.5);
+}
+
+
+.slide-img{
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    object-position: center;
+}
+
+
+
 
 .fade {
     animation-name: fade;
