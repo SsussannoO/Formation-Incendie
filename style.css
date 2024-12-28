@@ -6,6 +6,7 @@ body{background-color: black;}
 .custom-slider { display: none; }
 .slide-container {
     max-width: 800px;
+    max-height: 800px;
     position: center;
     margin: auto;
 }
